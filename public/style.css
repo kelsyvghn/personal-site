@@ -1,0 +1,9 @@
+body {
+    /* background-color: rgb(41, 40, 40); */
+    background-color: turquoise; /* For browsers that do not support gradients */
+    background-image: linear-gradient(black, grey, white, yellow, Aquamarine); /* Standard syntax (must be last) */
+    /* background-image: url(https://mypersonalsitesbucket.s3-us-west-1.amazonaws.com/IMG_0884.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top; */
+}

@@ -1,0 +1,98 @@
+  /* show or hide the main display/ carousel is in style.css ?*/
+  .displayAll {
+    display: block;
+  
+  }
+  
+  .displayFade {
+    display: none;
+  } 
+
+.title {
+    display: flex;
+    text-align: center;
+    font-family: serif;
+    font: Times;
+}
+
+h1 {
+    position: relative;
+    color: aquamarine;
+    padding: 20px;
+    align-items: center;
+}
+
+h2 {
+    color: peachpuff;
+    /* text-decoration: underline; */
+}
+
+h3 {
+    color: white;
+}
+.middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+button {
+    border-radius: 20px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    margin: 10px;
+    border: solid #000000 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+  .linksLeft {
+      display: block;
+      position: relative;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .linksCenter {
+    display: block;
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .linksRight {
+    display: block;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+.flaticon {
+    font-size: 10px;
+    position: absolute;
+    top: 90%;
+}
+img {
+    /* max-height: 300px; */
+    max-width: 75%;
+}
+
+h5 {
+  color: azure;
+}
+
+h4 {
+  color: azure;
+}
