@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import Line from '../../components/Line.jsx';
 import Links from '../../components/Links.jsx';
 import styles from './about.css';
-import rowan from '/Users/kelsyvaughn/Documents/Coding Projects/personal_website/resources/rowan.jpg';
-import sky from '/Users/kelsyvaughn/Documents/Coding Projects/personal_website/resources/sky.jpg';
+// import rowan from '/Users/kelsyvaughn/Documents/Coding Projects/personal_website/resources/rowan.jpg';
+// import sky from '/Users/kelsyvaughn/Documents/Coding Projects/personal_website/resources/sky.jpg';
 
 export default class AboutMe extends React.Component{
 
