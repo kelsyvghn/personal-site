@@ -1,0 +1,26 @@
+          <div className={styles.video}>
+          <YouTube videoId="hon0BYuzFak" opts={opts} onReady={this.onReady} />
+          <p>
+          * Project: a services review and photo sharing app, like Yelp, that allows users to submit reviews, share photos, see menu items and ratings, within a single-page application.
+* My goal was to build a nice, seamless, photo carousel and modal to display user and restaurant photos.
+* Postgres, CassandraDB, Node, Express, AWS/EC2, Docker, K6, New Relic, loader.io
+          </p>
+          </div>
+          <div className={styles.video}>
+          <Video2 />
+          <p>
+          * Project: a mobile fitness application that utilizes React Native to track workout routines and maintain a record of weights, reps, and time spent on various muscle groups in order to track and maintain a better workout regime.
+* My goal was to make a user-friendly application that I might use to track different routines when I workout, so I’m not scrambling to remember what I did last time or what weight set I was at.
+* React-Native, MongoDB, Node/Express
+          </p>
+            </div>
+            <div className={styles.video}>
+              <p>
+              <p>
+
+* Project: music and playlist sharing app, my component was specifically the sidebar element that displays related playlists and songs as well as other users who like and have shared the current song or playlist.
+* My Goal in building out the backend: was to get it to accept over 1000 requests per second on a t2 micro Amazon EC2 instance, in under 2000 ms per request.
+* ReactJS, Node/Express, MongoDB, AWS/S3, Docker
+          </p>
+              </p>
+            </div>

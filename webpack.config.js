@@ -1,7 +1,12 @@
 const path = require('path');
 
 module.exports = {
-  entry: path.join(__dirname, 'client/app.jsx'),
+  entry: {
+    home: path.join(__dirname,'client/app.jsx'),
+    about: path.join(__dirname,'client/pages/about/AboutMe.jsx'),
+    projects: path.join(__dirname,'client/pages/projects/RecentProjects.jsx'),
+    writings: path.join(__dirname,'client/pages/writings/Writings.jsx'),
+  },
   module: {
     rules: [
         {
@@ -36,7 +41,7 @@ module.exports = {
     ],
   },
   output: {
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
     path: path.join(__dirname, '/public'),
   },
 };

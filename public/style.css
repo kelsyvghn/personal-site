@@ -1,9 +1,109 @@
-body {
-    /* background-color: rgb(41, 40, 40); */
-    background-color: turquoise; /* For browsers that do not support gradients */
-    background-image: linear-gradient(black, grey, white, yellow, Aquamarine); /* Standard syntax (must be last) */
-    /* background-image: url(https://mypersonalsitesbucket.s3-us-west-1.amazonaws.com/IMG_0884.JPG);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top; */
+* {
+    box-sizing: border-box;
 }
+
+body {
+    background-color: #20B2AA;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#app {
+    width: 100%;
+    height: 528px;
+    padding: 10px;   
+}
+
+.section-title {
+    color: turquoise;
+}
+
+.main-header {
+    width: 100%;
+    background: peachpuff;
+    padding: 8px 16px;
+    position: relative;
+    top: 0;
+    color: turquoise;
+    text-decoration: none;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: turquoise;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    list-style: none; 
+    float: left;
+    margin: 10px;
+    text-decoration: none;
+    color: turquoise;
+}
+
+.main-nav__item a {
+    color: turquoise;
+}
+
+.main-nav__item a:hover {
+    color: black;
+    
+}
+.main-nav__item a:active {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color:  turquoise;
+}
+
+/* unvisited link */
+a:link {
+    color: turquoise;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: teal;
+  }
+  
+  /* selected link */
+  a:active {
+    color: coral;
+  }
+

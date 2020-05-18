@@ -1,30 +1,12 @@
-.me {
-    color: lightcyan;
-    position:fixed;
-    background: rgb(46, 45, 45);
-    width: 80%;
-    height: auto;
-    top:50%;
-    left:50%;
-    opacity: 100%;
-
-    transform: translate(-50%,-50%);
-}
-
-.modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width:100%;
-    height: 100%;
-    opacity: 0%;
-    background: rgba(46, 45, 45, 0.6);
+img {
+    border-radius: 10%;
+    max-height: 250px;
+    max-width: 250px;
+    transform: rotate(-10deg);
   }
 
-.displayAll {
-    display: block;
-}
-
-.displayFade {
-    display: none;
+.image {
+    position: absolute;
+    top: 2%;
+    left: 45%;
 }
