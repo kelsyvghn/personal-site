@@ -7,17 +7,15 @@
   font: Helvetica;
 }
 
-h1 {
+.name {
     position: absolute;
     width: 100%;
-    color: aquamarine;
     padding: 20px;
     top: 25%;
     align-items: center;
 }
 
-h2 {
-    color: peachpuff;
+.subtitle {
     position: absolute;
     width: 100%;
     top: 32%;
@@ -39,3 +37,10 @@ h4 {
 h5 {
   color: peachpuff;
 }
+
+/* strokeDashoffset={[anime.setDashoffset, 0]}
+easing={easeInOutSine}
+duration{1500}
+delay={function(el, i) { return i * 250 }},
+direction={alternate}
+loop={true}> */

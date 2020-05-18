@@ -2,7 +2,7 @@ import React from 'react';
 
 const Resume = () => {
     return (
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+<svg id="svgs" version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="80px" height="80px" viewBox="0 0 747.000000 1056.000000"
  preserveAspectRatio="xMidYMid meet">
 <g transform="translate(0.000000,1056.000000) scale(0.100000,-0.100000)"

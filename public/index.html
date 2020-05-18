@@ -6,7 +6,8 @@
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    </head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+</head>
     <body>
         <header class="main-header"> 
             <div>
@@ -30,6 +31,33 @@
             <div id="app">
             </div>
             <script type="text/javascript" src="home.bundle.js"></script>
+            <script>
+                anime({
+                    targets: '#name path',
+                    strokeDashoffset: [anime.setDashoffset, 0],
+                    easing: 'easeInOutSine',
+                    duration: 2000,
+                    delay: function(el, i) { return i * 50 },
+                    direction: 'alternate',
+                    loop: false
+                });
+                anime({
+                    targets: '#subtitle path',
+                    strokeDashoffset: [anime.setDashoffset, 0],
+                    easing: 'easeInOutSine',
+                    duration: 1000,
+                    delay: function(el, i) { return i * 0 },
+                    direction: 'alternate',
+                    loop: false
+                });
+                anime({
+                    targets: '#svgs',
+                    translateX: anime.stagger(10),
+                    duration: 5000,
+                    loop: false
+                })
+
+            </script>
         </main>
     </body>
 </html>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Arrow = () => {
     return (
-        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+        <svg id="svgs" version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="50px" height="50px" viewBox="0 0 571.000000 865.000000"
  preserveAspectRatio="xMidYMid meet">
 

@@ -9,7 +9,8 @@ import Arrow2 from './svgs/Arrow2.jsx';
 import Summary from './components/Summary.jsx';
 import Links from './components/Links.jsx';
 import Me from './components/Me.jsx';
-
+import Name from './svgs/Name.jsx';
+import Subtitle from './svgs/Subtitle.jsx';
 export default class App extends React.Component{
 
   // componentDidMount(){
@@ -22,11 +23,19 @@ export default class App extends React.Component{
   // }
     
   render(){
+
     return (
         <div className={styles.title}>
       <Me />
-      <h1>Kelsy Vaughn</h1>
-      <h2>Full Stack Software Engineer</h2>
+      <div className={styles.name}>
+  <Name />
+      </div>
+      <div className={styles.subtitle}>
+     <Subtitle />
+      </div>
+      {/* <div className={styles.icons}>
+      <Icons />
+      </div> */}
     <Summary />
     <Links />
         </div>

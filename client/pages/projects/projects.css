@@ -13,7 +13,6 @@ main {
 .video:active {
     box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     border-color: peachpuff;
-    /* border-color: #ff5454 !important; */
 }
 
 .video a {
@@ -58,7 +57,7 @@ main {
 }
 
 #top {
-    background:turquoise;
+    background: rgba(187, 241, 235, 0.95);
     margin-top: 2%;
 }
 
@@ -83,5 +82,5 @@ main {
 
 a {
       color: peachpuff;
-      margin: 10px;
+      margin: 20px;
 }

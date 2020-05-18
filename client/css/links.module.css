@@ -1,14 +1,3 @@
-.footer {
-    text-align: left;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    justify-content: space-around;
-    position: fixed;
-    background-color: #20B2AA;
-}
-
 .links {
     display: inline-block;
     position: fixed;
@@ -18,6 +7,22 @@
     flex-direction: row;
     text-decoration: none;
 }
+
+.footer {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    position: fixed;
+    background-color: #20B2AA;
+
+}
+ .line {
+     border:  10px peachpuff;
+ }
+
 
 .flaticon {
     font-size: 10px;

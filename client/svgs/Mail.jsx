@@ -2,7 +2,7 @@ import React from 'react';
 
 const Mail = () => {
     return (
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="30px" height="30px"
+<svg id="svgs" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="30px" height="30px"
 	 viewBox="0 0 511.974 511.974" xmlSpace="preserve" fill="#F0FFFF">
 <g>
 	<g>
