@@ -28,11 +28,32 @@ export default class RecentProjects extends React.Component{
         <>
         <main>
         <div className={styles.arrow}>
-    <a href="#middle"><Arrow />Scroll Down for More!</a>
+    <h1><Arrow /></h1>
         </div>
+        <section className={styles.video} id={styles.center}>
+        <a href="https://github.com/Soundiverse/SDC-sidebar-service"><Github />Code on Github</a>
+        {/* <Video2 /> */}
+    <a href="">
+                <h1 className={styles.title}>
+                    GreenHouse App
+                        </h1>
+                        
+                    <h2 className={styles.font}>
+                   - Project: A long-range money tracking application that allows users to link bank accounts, credit cards, etc., to track spending, budget, and project long-term interest costs and savings. 
+                    </h2>
+                    <p className={styles.font}>
+                   - I was tired of using an excel sheet to track my budget and predict or calculate approximately how much I might save with a certain bill or credit card if I paid it off early. The goal of this application is to remove that guesswork and calculate precisely what you'll save 
+                   over the course of 3-12 months by paying things off early, depositing extra cash into an account, or if you have to unfortunately pay a bill late. It also can help determine the best ways to save, spend, and avoid extra costs over time. 
+                    </p>
+                    <h3 className={styles.frameworks}>
+                   - React-Native, Javascript, PostgreSQL, Node, Google VM/Cloud
+                    </h3>
+    </a>
+        </section>     
+<div className={styles.clearfix}></div> 
         <section className={styles.video} id={styles.top}>
         <a href="https://github.com/kelsyvghn/my-workout-app"><Github />Code on Github</a>
-        <Video2 />
+        {/* <Video2 /> */}
     <a href="https://www.youtube.com/watch?v=HcC5Zozv7qU">
                 <h1 className={styles.title}>
                     TrackHiit Mobile ios Workout Application
@@ -70,7 +91,7 @@ export default class RecentProjects extends React.Component{
 <div className={styles.clearfix}></div>
         <section className={styles.video} id={styles.bottom}>
         <a href="https://github.com/wonder4-com/see-all-photos-services"><Github />Code on Github</a>
-        <Video />
+        {/* <Video /> */}
     <a href="https://www.youtube.com/watch?v=hon0BYuzFak&t=20s">
                 <h1 className={styles.title}>
                     Services Photo and Review Application
