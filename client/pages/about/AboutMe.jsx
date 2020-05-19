@@ -34,8 +34,8 @@ export default class AboutMe extends React.Component{
         <div className={styles.links}>
         {/* <Line color="turquoise" /> */}
         <Links />
+{/* <Line color="turquoise"/> */}
         </div>
-
             </>
         )
     }
