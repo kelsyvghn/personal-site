@@ -16,10 +16,7 @@ import Line from './Line.jsx';
 const Links = () => {
     return (
 <div className={styles.links}>
-    <div className={styles.line}>
-<Line color="turquoise" />
-
-    </div>
+    {/* <Line color="turquoise"/> */}
 <div className={styles.footer}> 
     <a href="https://www.instagram.com/coder_kelsy/"><Insta /></a>
     <a href="https://www.linkedin.com/in/kelsyavaughn/"><LinkedIn /></a>
