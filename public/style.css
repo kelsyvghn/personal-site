@@ -14,6 +14,24 @@ body {
     padding: 10px;   
 }
 
+#projects {
+    width: 100%;
+    height: 528px;
+    padding: 10px;   
+}
+
+#about {
+    width: 100%;
+    height: 528px;
+    padding: 10px;   
+}
+
+#writings {
+    width: 100%;
+    height: 528px;
+    padding: 10px;   
+}
+
 .section-title {
     color: turquoise;
 }
@@ -21,9 +39,9 @@ body {
 .main-header {
     width: 100%;
     background: peachpuff;
-    padding: 8px 16px;
+    padding: 0px 10px;
     position: relative;
-    top: 0;
+
     color: turquoise;
     text-decoration: none;
 }
@@ -31,9 +49,6 @@ body {
 .main-header > div {
     display: inline-block;
     vertical-align: middle;
-}
-
-.main-header__brand {
     color: turquoise;
     text-decoration: none;
     font-weight: bold;
@@ -43,19 +58,19 @@ body {
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 74px);
+    width: 90%;
     vertical-align: middle;
 }
 
 .main-nav__items {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
     list-style: none;
 }
 
 .main-nav__item {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 10px;
 }
 
 ul {
@@ -80,6 +95,7 @@ li {
 }
 .main-nav__item a:active {
     color: white;
+
 }
 
 a {
@@ -94,7 +110,7 @@ a:link {
   
   /* visited link */
   a:visited {
-    color: rgb(165, 42, 89);
+    color: coral;
   }
   
   /* mouse over link */
@@ -105,5 +121,8 @@ a:link {
   /* selected link */
   a:active {
     color: coral;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
   }
 
