@@ -37,7 +37,6 @@ export default class RecentProjects extends React.Component{
                 <h1 className={styles.title}>
                     GreenHouse App
                         </h1>
-                        
                     <h2 className={styles.font}>
                    - Project: A long-range money tracking application that allows users to link bank accounts, credit cards, etc., to track spending, budget, and project long-term interest costs and savings. 
                     </h2>
@@ -105,7 +104,6 @@ export default class RecentProjects extends React.Component{
                     <h3 className={styles.frameworks}>
                     - ReactJS, Node/Express, MongoDB, AWS/S3, Docker
                     </h3>
-
     </a>
         </section>
         </main>
