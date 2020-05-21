@@ -3,7 +3,7 @@ import React from 'react';
 const Phone = () => {
     return (
         <svg id="svgs" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" height="30px" width="30px"
-	 viewBox="0 0 512.006 512.006" xmlSpace="preserve" fill="#F0FFFF">
+	 viewBox="0 0 512.006 512.006" xmlSpace="preserve" fill="#5D6D7E">
 <g>
 	<g>
 		<g>
