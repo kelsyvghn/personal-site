@@ -10,11 +10,15 @@ for all the goodies:
 
     npm install
     
-to bundle it all up nicely 
+to bundle it all up nicely:
  
     npm run build:react
+    
+start the server up:
 
-and to view it on your local machine go to
+    npm start
+
+and to view it on your local machine go to:
 
 ## localhost:4000
 
