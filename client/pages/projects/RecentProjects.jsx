@@ -31,7 +31,7 @@ export default class RecentProjects extends React.Component{
     <h1><Arrow /></h1>
         </div>
         <section className={styles.video} id={styles.center}>
-        <a href="https://github.com/Soundiverse/SDC-sidebar-service"><Github />Code on Github</a>
+        <a href=""><Github />Code on Github</a>
         {/* <Video2 /> */}
     <a href="">
                 <h1 className={styles.title}>
@@ -53,7 +53,7 @@ export default class RecentProjects extends React.Component{
         <section className={styles.video} id={styles.top}>
         <a href="https://github.com/kelsyvghn/my-workout-app"><Github />Code on Github</a>
         {/* <Video2 /> */}
-    <a href="https://www.youtube.com/watch?v=HcC5Zozv7qU">
+    <a href="">
                 <h1 className={styles.title}>
                     TrackHiit Mobile ios Workout Application
                         </h1>
@@ -71,7 +71,6 @@ export default class RecentProjects extends React.Component{
         </section>
         <section className={styles.video} id={styles.center}>
         <a href="https://github.com/Soundiverse/SDC-sidebar-service"><Github />Code on Github</a>
-        {/* <Video2 /> */}
     <a href="">
                 <h1 className={styles.title}>
                     Sidebar Music Backend
@@ -90,7 +89,7 @@ export default class RecentProjects extends React.Component{
 <div className={styles.clearfix}></div>
         <section className={styles.video} id={styles.bottom}>
         <a href="https://github.com/wonder4-com/see-all-photos-services"><Github />Code on Github</a>
-        {/* <Video /> */}
+        <Video />
     <a href="https://www.youtube.com/watch?v=hon0BYuzFak&t=20s">
                 <h1 className={styles.title}>
                     Services Photo and Review Application

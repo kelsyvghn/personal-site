@@ -40,12 +40,12 @@ main {
 }
 
 #bottom {
-    background:rgba(187, 241, 235, 0.95);
+    background: #5D6D7E;
     margin-bottom:  6%;
 }
 
 #center {
-    background: rgba(187, 241, 235, 0.95);
+    background: #5D6D7E;
     float: right;
     border-right: none;
     border-left: 4px solid turquoise;
@@ -58,7 +58,7 @@ main {
 }
 
 #top {
-    background: rgba(187, 241, 235, 0.95);
+    background: #5D6D7E;
     margin-top: 2%;
 }
 
@@ -71,7 +71,7 @@ main {
 }
 
 .frameworks {
-    color: teal;
+    color: #FFAB91;
 }
 
 

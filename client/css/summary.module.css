@@ -2,15 +2,16 @@
   position: absolute;
   font-size: 16pt;
   height: 100%;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 30%;
+  margin-right: 30%;
   top: 40%;
   justify-content: center;
   text-align: center;
-  color: white;
+  color: rgb(31, 41, 46);
+
   }
   
   p {
-    color: white;
+    color: rgb(31, 41, 46);
   }
   
