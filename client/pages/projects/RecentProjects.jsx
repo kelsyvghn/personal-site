@@ -89,7 +89,7 @@ export default class RecentProjects extends React.Component{
 <div className={styles.clearfix}></div>
         <section className={styles.video} id={styles.bottom}>
         <a href="https://github.com/wonder4-com/see-all-photos-services"><Github />Code on Github</a>
-        <Video />
+        {/* <Video /> */}
     <a href="https://www.youtube.com/watch?v=hon0BYuzFak&t=20s">
                 <h1 className={styles.title}>
                     Services Photo and Review Application

@@ -21,9 +21,15 @@
 }
 
 .flaticon {
-    font-size: 10px;
+    font-size: 12px;
     position: fixed;
+    left: 35%;
     color: peachpuff;
-    top: 98%;
+    top: 95%;
     text-decoration: none;
+}
+
+li {
+    float: left;
+    color:darkgray;
 }

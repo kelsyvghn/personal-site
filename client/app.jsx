@@ -11,32 +11,31 @@ import Links from './components/Links.jsx';
 import Me from './components/Me.jsx';
 import Name from './svgs/Name.jsx';
 import Subtitle from './svgs/Subtitle.jsx';
+
 export default class App extends React.Component{
 
-  // componentDidMount(){
-  //     ajax({
-  //         type: 'get',
-  //         url: 'http://localhost:4000/',
-  //         success: success => console.log('success'),
-  //         error: e => console.log('error loading!')
-  //     })
-  // }
-    
   render(){
 
     return (
         <div className={styles.title}>
+          <div className={styles.opening}>
       <Me />
       <div className={styles.name}>
   <Name />
       </div>
       <div className={styles.subtitle}>
      <Subtitle />
+        <a href="#bottom" className={styles.arrow}>
+      <Arrow /><h3>Scroll Down to Know More</h3>
+        </a>
       </div>
+          </div>
       {/* <div className={styles.icons}>
       <Icons />
       </div> */}
+      <div className={styles.summary}>
     <Summary />
+      </div>
     <Links />
         </div>
     )

@@ -1,9 +1,9 @@
 
 
 Fixes for Site
-- try editing color scheme for more professional look
+x- try editing color scheme for more professional look
 - add top 3 projects to front page
 - create database for easier update of projects, consistent feed
-- add c# project to projects
+- add c# project to projects list
 - redo videos to match project and add url to database
 - see what it looks like to move links to bottom of scrolling page-
