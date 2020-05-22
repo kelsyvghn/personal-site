@@ -27,9 +27,9 @@ export default class RecentProjects extends React.Component{
     return (
         <>
         <main>
-        <div className={styles.arrow}>
+        {/* <div className={styles.arrow}>
     <h1><Arrow /></h1>
-        </div>
+        </div> */}
         <section className={styles.video} id={styles.center}>
         <a href=""><Github />Code on Github</a>
         {/* <Video2 /> */}

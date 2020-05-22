@@ -4,7 +4,7 @@ import styles from '../css/summary.module.css';
 
 const Summary = () => {
     return (
-        <div className={styles.summary}>
+        <div id="summary" className={styles.summary}>
             <p>Hello! Welcome to my personal website!</p>
 <p>I am a <b>Full Stack Software Engineer</b> that uses many languages, but especially <b>Javascript/React/Node.js</b>.</p>
 <p>It's been noted more than a few times that I'm a <i>perfectionist</i> but really I just believe that everything has a <i>perfect</i> state,
@@ -24,6 +24,7 @@ Xbox's and Playstations when they broke while we we're deployed <i>(probably my 
     I'm so glad you decided to join me here, on a single stop of my journey, and if ever you wish to connect or know more, I've got some links below that 
     are just <i>waiting</i> to be activated.
     </p>
+    <div className={styles.clearfix}></div>
 </div>
     )
 }

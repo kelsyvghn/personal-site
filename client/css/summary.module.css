@@ -8,12 +8,19 @@
   justify-content: center;
   text-align: center;
   color: rgb(31, 41, 46);
-
+  background-color: #A3E4D7;
   }
   
   p {
     color: rgb(31, 41, 46);
+    background-color: #A3E4D7;
   }
+
+  .clearfix {
+    clear: both;
+    height: 200px;
+    background-color: #A3E4D7;
+}
 
 
   

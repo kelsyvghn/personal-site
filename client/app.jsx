@@ -25,9 +25,9 @@ export default class App extends React.Component{
       </div>
       <div className={styles.subtitle}>
      <Subtitle />
-        <a href="#bottom" className={styles.arrow}>
+        {/* <div className={styles.arrow}>
       <Arrow /><h3>Scroll Down to Know More</h3>
-        </a>
+        </div> */}
       </div>
           </div>
       {/* <div className={styles.icons}>

@@ -33,3 +33,34 @@ li {
     float: left;
     color:darkgray;
 }
+
+@media(max-width: 768px) {
+    #svgs {
+        width: 50%;
+        height: 50%;
+      }
+      
+    .links {
+        display: block;
+        position: fixed;
+        height: 10%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-decoration: none;
+        align-items: center;
+    }
+    
+
+    
+    .flaticon {
+        font-size: 12px;
+        position: fixed;
+        left: 35%;
+        color: peachpuff;
+        top: 95%;
+        text-decoration: none;
+    }
+    
+
+}

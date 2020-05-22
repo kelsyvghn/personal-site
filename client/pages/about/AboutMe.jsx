@@ -13,7 +13,6 @@ export default class AboutMe extends React.Component{
           <>
             <div className={styles.me}>
                 <div className={styles.textBox}>
-
         <p>Hello and welcome to my personal website! Personally, I don't like to share too much on the first day, but for you, I'll make an exception. After all, you did take the time to look me up. I've lived in San Diego for the better part of half my life, moving around since birth, to Montana, Minnesota, Ohio, and Los Angeles; but I've always considered San Diego my home. I was born here, after all, and what's not to love?!
         </p>
         <p>
@@ -33,6 +32,8 @@ export default class AboutMe extends React.Component{
         <p> 
         </p>
                 </div>
+
+        <div className={styles.clearfix}></div>
         </div>
         <div className={styles.links}>
         {/* <Line color="turquoise" /> */}
