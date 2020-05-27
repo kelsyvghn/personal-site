@@ -11,6 +11,9 @@ import Links from './components/Links.jsx';
 import Me from './components/Me.jsx';
 import Name from './svgs/Name.jsx';
 import Subtitle from './svgs/Subtitle.jsx';
+import AboutMe from './svgs/AboutMe.jsx';
+import Projects from './svgs/Projects.jsx';
+
 
 export default class App extends React.Component{
 
@@ -26,7 +29,7 @@ export default class App extends React.Component{
       <div className={styles.subtitle}>
      <Subtitle />
         <div className={styles.arrow}>
-      <Arrow /><h5>Find Out More</h5>
+      <AboutMe /><Arrow />
         </div>
       </div>
           </div>

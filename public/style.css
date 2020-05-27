@@ -43,6 +43,7 @@ body {
     position: relative;
     color: turquoise;
     text-decoration: none;
+    height: max-content;
 }
 
 .main-header > div {

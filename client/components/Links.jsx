@@ -12,6 +12,8 @@ import Resume from '../svgs/Resume.jsx'
 import resume from '../../resources/resume.jpg'
 import Contact from './Contact.jsx';
 import Line from './Line.jsx';
+import Mail from '../svgs/Mail.jsx';
+import Phone from '../svgs/Phone.jsx';
 
 const Links = () => {
     return (
@@ -24,17 +26,15 @@ const Links = () => {
     <a href="https://www.youtube.com/channel/UCuWCTc_1TtHYJ9dW4PJjWZw?view_as=subscriber"><Youtube /></a>
     <a href="https://twitter.com/Vghnkels"><Twitter /></a>
     <a href={resume} style={{"textDecoration": "none", "color": "black"}}><Resume /></a> 
-    <Contact />
+    <a href="mailto: kelsyavaughn@gmail.com"><Mail /></a>
      </div> 
     <ul className={styles.flaticon}><li>Icons made by<a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
-              {/* <li>Created With Care By:</li> */}
+            <li>And Handrawn by: </li>
               <li>Kelsy Vaughn</li>
               <li>
                2020
               </li>
-              {/* <li><a href="https://www.netlify.com"></a>Hosted By: Netlify.com</li> */}
-            </ul>
-        
+            </ul> 
 </div>
     )
 }
