@@ -2,7 +2,7 @@
 
 the url for this site is 
 
-## www.kelsyvaughn.com
+## www.kelsyvaughn.dev
 
 if you have comments or suggestions, please feel free to contact me there. 
 

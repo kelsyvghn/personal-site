@@ -35,7 +35,7 @@ h4 {
 }
 
 h5 {
-  color: peachpuff;
+  color: teal;
 }
 
 .opening {
@@ -45,7 +45,7 @@ h5 {
 
 .arrow  {
   position: fixed;
-  top: 60%;
+  top: 70%;
   left: 40%;
   width: 20%;
 }
