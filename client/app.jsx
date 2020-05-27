@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { ajax } from 'jquery';
 import Line from './components/Line.jsx';
 import styles from './css/title.module.css';
-import MyMap from '../resources/MyMap.png';
 import Arrow from './svgs/Arrow.jsx';
 import Arrow2 from './svgs/Arrow2.jsx';
 import Summary from './components/Summary.jsx';

@@ -5,6 +5,7 @@ module.exports = {
     home: path.join(__dirname,'client/app.jsx'),
     about: path.join(__dirname,'client/pages/about/AboutMe.jsx'),
     projects: path.join(__dirname,'client/pages/projects/RecentProjects.jsx'),
+    contributions: path.join(__dirname,'client/pages/contributions/Contributions.jsx'),
     writings: path.join(__dirname,'client/pages/writings/Writings.jsx'),
   },
   module: {
@@ -42,6 +43,6 @@ module.exports = {
   },
   output: {
     filename: '[name].bundle.js',
-    path: path.join(__dirname, '/public'),
+    path: path.join(__dirname, '/public/bundles'),
   },
 };
