@@ -5,7 +5,7 @@ const AboutMe = () => {
     return (
     
     <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="70.000000pt" height="39.000000pt" viewBox="0 0 700.000000 394.000000" preserveAspectRatio="xMidYMid meet">
-<g transform="translate(0.000000,394.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+<g transform="translate(0.000000,394.000000) scale(0.100000,-0.100000)" fill="#E9967A" stroke="none">
 <path d="M2630 3551 c0 -6 14 -11 30 -11 40 0 90 -22 117 -51 25 -28 119 -169
 146 -219 24 -45 37 -58 37 -39 0 8 -5 20 -11 26 -12 12 -15 18 -62 103 -38 71
 -94 141 -133 169 -36 25 -124 42 -124 22z"></path>

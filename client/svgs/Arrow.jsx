@@ -7,7 +7,7 @@ const Arrow = () => {
  preserveAspectRatio="xMidYMid meet">
 
 <g transform="translate(0.000000,865.000000) scale(0.100000,-0.100000)"
-fill="#F0FFFF" stroke="none">
+fill="#A9A9A9" stroke="none">
 <path d="M2710 8543 c-19 -1 -118 -10 -220 -19 -180 -15 -209 -22 -196 -42 8
 -13 136 -52 171 -52 24 0 26 3 21 24 -5 22 -3 24 57 30 138 14 434 19 441 7
 10 -16 282 -15 292 1 13 20 -24 35 -114 47 -80 10 -364 13 -452 4z"/>

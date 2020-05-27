@@ -10,7 +10,7 @@ export default class Contributions extends React.Component{
     render() {
     return (
         <>
-<div>This is your Contributions page</div>
+<div>Future Page of Contributions to Open Source, joint, and independent projects!</div>
         <footer>
     <Links />
         </footer>

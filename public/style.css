@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #A3E4D7;
+    background-color: #fff5EE;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
@@ -38,10 +38,10 @@ body {
 
 .main-header {
     width: 100%;
-    background: peachpuff;
+    background: #A3E4D7;
     padding: 0px 10px;
     position: relative;
-    color: turquoise;
+    color: darkcyan;
     text-decoration: none;
     height: max-content;
 }
