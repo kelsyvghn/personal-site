@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../css/me.module.css';
-import photo from '../../resources/sfBkg.jpg';
+import photo from '../../public/resources/Me.jpg';
 
 const Me = () => {
     return (

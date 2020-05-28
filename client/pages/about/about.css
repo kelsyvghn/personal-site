@@ -34,7 +34,7 @@
 .clearfix {
     clear: both;
     height: 300px;
-    background-color: #A3E4D7;
+
 }
 
 @media(max-width: 768px) {
