@@ -1,14 +1,14 @@
 .summary {
-  position: absolute;
+  display: block;
   font-size: 16pt;
   height: 100%;
+  width: 60%;
   margin-left: 20%;
   margin-right: 20%;
   top: 0%;
   justify-content: center;
   text-align: center;
   color: rgb(31, 41, 46);
-  background-color: #A3E4D7;
   }
   
   p {
