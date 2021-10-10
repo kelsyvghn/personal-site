@@ -24,12 +24,16 @@ export default class AboutMe extends React.Component{
         I worked as an Electronics Technician, almost entirely responsible on my team for the maintenance of network and communications systems, often repairing, maintaining, and programming everything with little to no documentation. And man, I was pretty good at that. I loved it, you might say, but I didn't like the Navy much. 
         It's hard being away from family all the time. So after 6 years of working in tech with the Navy, so I decided to get out and improve my software skills. In early 2020 I went to Hack Reactor, an intense Software Engineering Immersive. I graduated in May 2020.
         </p>
-        <p>As a lover of creativity, I also have been slowly but surely working towards a Master's in English so I can feel comfortable about also writing fiction in my spare time. 
-            Much like everything in my life, it's a bit of a lifelong passion project. And so far I've written two books.</p>
+        <p>As a lover of creativity, I also have completed a Master's in English so I can feel comfortable about also writing fiction in my spare time. 
+            Much like everything in my life, it's a bit of a lifelong passion project. And so far I've written and a half (unpublished) books.</p>
+            <p>Since completing my Master's in English, I've begun another Master's program at Colorado State University - Global, which is in Artificial Intelligence and Machine Learning.
+                It is so exciting to delve deeper into the world of software engineering and the future of all technology. I look forward to seeing where it all takes me!
+            </p>
         <p>
         I live in San Diego with my two wonderful dogs, Rowan and Sky. Sky, my beautiful white shepherd, was rescued from Bahrain and has been with me since my very first deployment in the Navy! Rowan, my shorthaired pointer,  is my running partner and coding chair sidekick (he loves sitting behind me while I type away)!    
         </p>
         <p> 
+
         </p>
                 </div>
 

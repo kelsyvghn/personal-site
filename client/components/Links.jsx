@@ -20,7 +20,7 @@ const Links = () => {
 <div className={styles.links}>
     {/* <Line color="turquoise"/> */}
 <div className={styles.footer}> 
-    <a href="https://www.instagram.com/coder_kelsy/"><Insta /></a>
+    <a href="https://www.instagram.com/_kels_y/"><Insta /></a>
     <a href="https://www.linkedin.com/in/kelsyavaughn/"><LinkedIn /></a>
     <a href="https://github.com/kelsyvghn"><Github /></a>
     <a href="https://www.youtube.com/channel/UCuWCTc_1TtHYJ9dW4PJjWZw?view_as=subscriber"><Youtube /></a>
