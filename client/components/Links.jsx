@@ -8,8 +8,8 @@ import Twitter from '../svgs/Twitter.jsx';
 import Facebook from '../svgs/Facebook.jsx';
 import Spotify from '../svgs/Spotify.jsx';
 import iTunes from '../svgs/iTunes.jsx';
-import Resume from '../svgs/Resume.jsx'
-import resume from '../../public/resources/resume.pdf'
+// import Resume from '../svgs/Resume.jsx'
+// import resume from '/Users/kelsyvaughn/personal-site/public/resources/resume.html'
 import Contact from './Contact.jsx';
 import Line from './Line.jsx';
 import Mail from '../svgs/Mail.jsx';
@@ -25,7 +25,7 @@ const Links = () => {
     <a href="https://github.com/kelsyvghn"><Github /></a>
     <a href="https://www.youtube.com/channel/UCuWCTc_1TtHYJ9dW4PJjWZw?view_as=subscriber"><Youtube /></a>
     <a href="https://twitter.com/Vghnkels"><Twitter /></a>
-    <a href={resume} style={{"textDecoration": "none", "color": "black"}}><Resume /></a> 
+    {/* <a href={resume} style={{"textDecoration": "none", "color": "black"}}><Resume /></a>  */}
     <a href="mailto: kelsyavaughn@gmail.com"><Mail /></a>
      </div> 
     <ul className={styles.flaticon}><li>Icons made by<a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
