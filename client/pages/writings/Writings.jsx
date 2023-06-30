@@ -10,7 +10,7 @@ export default class Writings extends React.Component {
         return(
         <div className={styles.writings}>
             <div>
-            <h1>Nothing to see here... YET! (Come back Later)</h1>
+            <h1>Nothing to see here... YET! (Come back Later) or check out my other pages! or checkout www.everythingeverywhere.dev my more personal site!</h1>
             </div>
          <div>
             <Line color="turquoise"/>

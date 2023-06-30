@@ -9,7 +9,7 @@ import Facebook from '../svgs/Facebook.jsx';
 import Spotify from '../svgs/Spotify.jsx';
 import iTunes from '../svgs/iTunes.jsx';
 import Resume from '../svgs/Resume.jsx'
-import resume from '../../public/resources/resume.jpg'
+import resume from '../../public/resources/resume.pdf'
 import Contact from './Contact.jsx';
 import Line from './Line.jsx';
 import Mail from '../svgs/Mail.jsx';
